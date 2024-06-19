@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(209, 204, 204);
+}
+.login{
+    text-align: center;
+    background-color: rgb(166, 223, 223);
+    animation-duration:1.5s ;
+   animation-name: anilogin;
+   animation-timing-function:ease-in ;
+   animation-delay: 0s;
+   animation-iteration-count: 1;
+   animation-fill-mode:none ;
+   animation-direction: reverse;
+}
+.forgot{
+    text-align: center;
+    background-color: rgb(231, 197, 233);
+    animation-name: aniforgot;
+   animation-timing-function:ease-in ;
+   animation-delay: 0s;
+   animation-iteration-count: 1;
+   animation-fill-mode:none ;
+   animation-direction: reverse;
+
+}
+.but:hover{
+    background-color: green;
+    color: white
+    margin-left: 60px;
+    transform:translateY(-10px)
+   
+}
+
+.inde{
+    background-color:white;
+    border-radius: 10px;
+   margin:50px auto;
+   max-width: 200px;
+   padding:30px;
+   animation-duration:1.5s ;
+   animation-name: ani;
+   animation-timing-function:ease-in ;
+   animation-delay: 0s;
+   animation-iteration-count: 1;
+   animation-fill-mode:none ;
+}
+
+.inde input{
+    border-radius:  50px;
+    border: 1px solid green;
+
+}
+a:hover{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  @keyframes ani{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+
+  }
+  @keyframes anilogin{
+    from{
+        transform: translateX(-600px);
+    }
+    to{
+        transform: translateX(-30px);
+    }
+
+  }
+  @keyframes aniforgot{
+    from{
+        transform: translateY(-600px);
+    }
+    to{
+        transform: translateY(-30px);
+    }
+
+  }
+
