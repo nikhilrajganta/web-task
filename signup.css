@@ -2,6 +2,7 @@ body {
     background-color: rgb(209, 204, 204);
 }
 
+
 .login {
     text-align: center;
     background-color: rgb(166, 223, 223);
@@ -47,8 +48,17 @@ body {
 }
 
 
+.inde img{
+   animation: imga 1s,infinite;
+}
+
 .inde {
     background-color: white;
+    background-image: url(sun.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
     border-radius: 10px;
     margin: 50px auto;
     max-width: 200px;
@@ -66,6 +76,7 @@ body {
 .inde input {
     border-radius: 50px;
     border: 1px solid green;
+   
 
 }
 
@@ -111,4 +122,15 @@ a:hover {
         transform: translateY(-30px);
     }
 
+}
+@keyframes imga {
+    from {
+        transform: translateX(-600px);
+    }
+
+    to {
+        transform: translateX(-30px);
+    }
+
+    
 }
